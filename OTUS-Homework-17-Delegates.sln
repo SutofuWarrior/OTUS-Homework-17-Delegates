@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTUS-Homework-17-Delegates", "OTUS-Homework-17-Delegates.csproj", "{AED68C9E-4580-438F-BEEA-35144F6062F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AED68C9E-4580-438F-BEEA-35144F6062F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED68C9E-4580-438F-BEEA-35144F6062F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED68C9E-4580-438F-BEEA-35144F6062F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED68C9E-4580-438F-BEEA-35144F6062F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0157C72C-0D43-4016-8D71-6119CEBE82D4}
+	EndGlobalSection
+EndGlobal
