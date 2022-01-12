@@ -8,17 +8,20 @@ namespace OTUS_Homework_17_Delegates
         public static T GetMax<T>(this IEnumerable<T> e, Func<T, float> getParameter)
             where T: class
         {
+            if (getParameter == null)
+                throw new ArgumentNullException(nameof(getParameter));
+
             T maxItem = default;
             float max = getParameter(maxItem);
 
-            foreach (T next in e)
+            foreach (T current in e)
             {
-                float cur = getParameter(next);
+                float value = getParameter(current);
 
-                if (max < cur)
+                if (max < value)
                 {
-                    maxItem = next;
-                    max = cur;
+                    maxItem = current;
+                    max = value;
                 }
             }
 
